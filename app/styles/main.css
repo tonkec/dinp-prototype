@@ -329,3 +329,52 @@ html,body {
 .hidden {
   display: none;
 }
+
+
+/* landing page */
+.landing-title {
+  margin: 0;
+  color: #fff;
+}
+
+.landing-wrapper {
+  height: 100%;
+  background-color: #2B2D42;
+  padding-top: 45px;
+}
+
+.links-container {
+  position: relative;
+  top: 40%;
+}
+
+.landing-link {
+  font-size: 1.5em;
+  border: 1px solid #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 15px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 20px;
+   -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+      -ms-transition: all .5s ease-in-out;
+       -o-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out;
+}
+
+.landing-link:hover {
+  text-decoration: none;
+  color: #2B2D42;
+  background-color: #fff;
+  -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+      -ms-transition: all .5s ease-in-out;
+       -o-transition: all .5s ease-in-out;
+          transition: all .5s ease-in-out; 
+}
+
+.landing-fa {
+  margin-left: 10px;
+}
