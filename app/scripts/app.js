@@ -29,10 +29,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/one/page/designs', {
-        templateUrl: 'views/onepagedesigns.html',
-        controller: 'OnepagedesignsCtrl'
-      })
       .when('/typography', {
         templateUrl: 'views/typography.html',
         controller: 'TypographyCtrl'
@@ -40,14 +36,6 @@ angular
       .when('/color/palettes', {
         templateUrl: 'views/colorpalettes.html',
         controller: 'ColorpalettesCtrl'
-      })
-      .when('/code/snippets', {
-        templateUrl: 'views/codesnippets.html',
-        controller: 'CodesnippetsCtrl'
-      })
-      .when('/ux/ui', {
-        templateUrl: 'views/uxui.html',
-        controller: 'UxuiCtrl'
       })
       .when('/hi/def/images', {
         templateUrl: 'views/hidefimages.html',
